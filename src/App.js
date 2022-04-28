@@ -1,15 +1,19 @@
 
 import React from "react"
-import './index.css';
-import Button  from "./Button";
+import Footer from "./Footer";
+import Jumpborton from "./Jumpborton";
+import NavBar from "./NavBar";
+import AppSection from "./AppSection"
+
 const App = () =>
 {
   return (
-  <div  style={{textAlign: 'center'}}>
-  <h1 >Hello World</h1>
-  <Button title="click"/>
-  <Button title="don't click"/>
-  <Button />
-    </div>);
+    <div>
+     <NavBar/>
+     <Jumpborton/>
+      <AppSection/> 
+     <Footer/>
+    </div>
+  );
 }
  export default App;
